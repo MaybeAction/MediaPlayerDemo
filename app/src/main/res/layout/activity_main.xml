@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maybe.mediaplayerdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_surface"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SurfaceView+MediaPlayer" />
+    <TextView
+        android:id="@+id/tv_surface1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SurfaceView+MediaPlayer" />
+    <TextView
+        android:id="@+id/tv_surface2"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SurfaceView+MediaPlayer" />
+    <TextView
+        android:id="@+id/tv_surface3"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SurfaceView+MediaPlayer" />
+    <TextView
+        android:id="@+id/tv_surface4"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SurfaceView+MediaPlayer" />
+
+</LinearLayout>
