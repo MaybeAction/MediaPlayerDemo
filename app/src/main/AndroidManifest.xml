@@ -26,7 +26,8 @@
             android:theme="@android:style/Theme.NoTitleBar"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity android:name=".DemoC.DemoCActivity" />
-        <activity android:name=".DemoD.DemoDActivity"></activity>
+        <activity android:name=".DemoD.DemoDActivity" />
+        <activity android:name=".DemoE.DemoEActivity"></activity>
     </application>
 
 </manifest>

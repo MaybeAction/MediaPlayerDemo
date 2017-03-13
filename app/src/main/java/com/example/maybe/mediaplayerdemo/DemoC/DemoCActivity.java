@@ -68,7 +68,6 @@ public class DemoCActivity extends AppCompatActivity {
             @Override
             public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
                 //停止并释放资源
-
                 mediaPlayer.stop();
                 mediaPlayer.release();
             }
