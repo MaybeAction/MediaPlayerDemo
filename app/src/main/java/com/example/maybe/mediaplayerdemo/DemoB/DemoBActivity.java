@@ -4,9 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
-
 import com.example.maybe.mediaplayerdemo.R;
 import com.example.maybe.mediaplayerdemo.VideoUrlRes;
+
 
 public class DemoBActivity extends AppCompatActivity {
     private VideoView mVideoView;
@@ -22,5 +22,6 @@ public class DemoBActivity extends AppCompatActivity {
         //实例化控制器
         MediaController controller=new MediaController(this);
         mVideoView.setMediaController(controller);
+
     }
 }

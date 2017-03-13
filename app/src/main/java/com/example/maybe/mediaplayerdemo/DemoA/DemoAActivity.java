@@ -77,7 +77,6 @@ public class DemoAActivity extends AppCompatActivity {
 
         mTextureView.setAlpha(0.5f);//透明度
         mTextureView.setRotation(50.0f);//旋转度
-
     }
 //
 //        mSurfaceView= (SurfaceView) findViewById(R.id.sv);

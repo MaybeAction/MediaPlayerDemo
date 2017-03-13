@@ -18,7 +18,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".DemoA.DemoAActivity" />
-        <activity android:name=".DemoB.DemoBActivity"></activity>
+        <activity android:name=".DemoB.DemoBActivity" />
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".DemoC.DemoCActivity" />
+        <activity android:name=".DemoD.DemoDActivity"></activity>
     </application>
 
 </manifest>

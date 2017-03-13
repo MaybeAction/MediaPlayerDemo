@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.maybe.mediaplayerdemo.DemoA.DemoAActivity;
 import com.example.maybe.mediaplayerdemo.DemoB.DemoBActivity;
+import com.example.maybe.mediaplayerdemo.DemoC.DemoCActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView tv_surface,tv_surface1,tv_surface2,tv_surface3,tv_surface4;
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent1);
                 break;
             case R.id.tv_surface2:
-                Intent intent2=new Intent(MainActivity.this, DemoAActivity.class);
+                Intent intent2=new Intent(MainActivity.this, DemoCActivity.class);
                 startActivity(intent2);
                 break;
             case R.id.tv_surface3:
